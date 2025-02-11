@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Domain.Entities
+namespace MovieApi.Application.Features.CQRSDesignPattern.Results.MovieResults
 {
-    public class Movie
+    public class GetMovieByIdQueryResult
     {
         public int MovieId { get; set; }
         public string Title { get; set; }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Domain.Entities
+namespace MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands
 {
-    public class Movie
+    public class UpdateMovieCommand
     {
         public int MovieId { get; set; }
         public string Title { get; set; }
@@ -19,3 +19,4 @@ namespace MovieApi.Domain.Entities
         public bool Status { get; set; }
     }
 }
+
